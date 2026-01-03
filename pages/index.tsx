@@ -17,15 +17,15 @@ export default function Home() {
       title: 'Beginner Mastery',
       level: 'For Absolute Beginners',
       description: 'Master chess fundamentals from piece movement to basic tactics.',
-      icon: '♙',
+      icon: '🎓',
       features: ['Basic rules', 'Opening principles', 'Elementary tactics'],
-      color: 'from-primary to-secondary'
+      color: 'from-support to-secondary'
     },
     {
       title: 'Intermediate Strategy',
       level: 'For Intermediate Players',
       description: 'Develop tactical awareness and positional understanding.',
-      icon: '♘',
+      icon: '🎯',
       features: ['Positional concepts', 'Advanced tactics', 'Pawn structures'],
       color: 'from-accent to-primary'
     },
@@ -33,7 +33,7 @@ export default function Home() {
       title: 'Advanced Mastery',
       level: 'For Advanced Players',
       description: 'Master complex strategies and compete at tournament level.',
-      icon: '♕',
+      icon: '🏆',
       features: ['Deep strategy', 'Opening theory', 'Tournament preparation'],
       color: 'from-support to-accent'
     }
@@ -273,12 +273,12 @@ export default function Home() {
               <span className="text-sm font-bold text-support uppercase tracking-wider">Our Programs</span>
             </div>
             
-            <h2 className="text-4xl sm:text-6xl font-black text-black mb-6">
+            <h2 className="text-4xl sm:text-6xl font-black text-gray-900 mb-6">
               Choose Your
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Path to Mastery</span>
             </h2>
             
-            <p className="text-lg sm:text-xl text-black/70 max-w-3xl mx-auto font-medium">
+            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-medium">
               Whether you're just starting or aiming for championship titles, we have the perfect program for your journey
             </p>
           </div>
@@ -296,7 +296,7 @@ export default function Home() {
                 }}
               >
                 {/* Gradient background */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${program.color} opacity-90 group-hover:opacity-100 transition-opacity`} />
+                <div className={`absolute inset-0 bg-gradient-to-br ${program.color} opacity-100 group-hover:opacity-100 transition-opacity`} />
                 
                 {/* Animated border glow */}
                 <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-white/50 transition-all" />
@@ -313,26 +313,26 @@ export default function Home() {
 
                   {/* Level Badge */}
                   <div className="inline-flex px-4 py-1 rounded-full bg-white/30 backdrop-blur-sm border border-white/40 mb-4 self-start">
-                    <span className="text-xs font-bold text-black uppercase tracking-wide">
+                    <span className="text-xs font-bold text-white uppercase tracking-wide">
                       {program.level}
                     </span>
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-2xl sm:text-3xl font-black text-black mb-4 group-hover:scale-105 transition-transform">
+                  <h3 className="text-2xl sm:text-3xl font-black text-white mb-4 group-hover:scale-105 transition-transform">
                     {program.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-base text-black/80 mb-6 font-medium leading-relaxed flex-grow">
+                  <p className="text-base text-white/90 mb-6 font-medium leading-relaxed flex-grow">
                     {program.description}
                   </p>
 
                   {/* Features List */}
                   <ul className="space-y-3 mb-6">
                     {program.features.map((feature, j) => (
-                      <li key={j} className="flex items-center gap-3 text-sm text-black/90 font-semibold">
-                        <div className="w-2 h-2 rounded-full bg-black" />
+                      <li key={j} className="flex items-center gap-3 text-sm text-white/85 font-semibold">
+                        <div className="w-2 h-2 rounded-full bg-white" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -340,7 +340,7 @@ export default function Home() {
 
                   {/* CTA Button */}
                   <Link href="/programs" className="w-full mt-auto">
-                    <button className="w-full bg-black hover:bg-black/80 text-white font-bold py-4 px-6 rounded-full transition-all duration-300 text-base group-hover:shadow-xl flex items-center justify-center gap-2">
+                    <button className="w-full bg-white hover:bg-white/90 text-gray-900 font-bold py-4 px-6 rounded-full transition-all duration-300 text-base group-hover:shadow-xl flex items-center justify-center gap-2">
                       Learn More
                       <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </button>
