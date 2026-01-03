@@ -13,12 +13,11 @@ export default function MobileMenu() {
             {[
               ['/', 'Home'],
               ['/about', 'About'],
-              ['/programs', 'Programs'],
               ['/coaches', 'Coaches'],
               ['/achievements', 'Achievements'],
               ['/events', 'Events'],
               ['/gallery', 'Gallery'],
-              ['/pricing', 'Pricing'],
+              ['/pricing', 'Program & Pricing'],
               ['/contact', 'Contact'],
               ['/blog', 'Blog'],
               ['/register', 'Register']

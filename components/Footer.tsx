@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -53,8 +54,8 @@ export default function Footer() {
             {/* Brand Section */}
             <div className="lg:col-span-1 group">
               <div className="flex items-center gap-3 mb-6 group-hover:scale-105 transition-transform duration-300">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-primary via-secondary to-primary animate-pulse-slow group-hover:shadow-2xl group-hover:shadow-primary/80 transition-all duration-300">
-                  <span className="text-black text-3xl font-black">♔</span>
+                <div className="p-2 rounded-xl bg-gradient-to-br from-primary via-secondary to-primary animate-pulse-slow group-hover:shadow-2xl group-hover:shadow-primary/80 transition-all duration-300">
+                  <Image src="/logo.png" alt="Skillka Chess Academy Logo" width={48} height={48} className="h-12 w-12 object-contain" />
                 </div>
                 <div>
                   <p className="font-black text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary">
