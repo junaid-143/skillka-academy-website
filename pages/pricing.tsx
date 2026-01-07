@@ -95,7 +95,7 @@ export default function Pricing() {
           {/* Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Choose Your
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Program & Pricing
             </span>
           </h1>
@@ -131,12 +131,12 @@ export default function Pricing() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 mb-6">
               <span className="text-2xl">💳</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">Our Plans</span>
+              <span className="text-sm font-bold text-white uppercase tracking-wider">Our Plans</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Flexible Pricing for
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Every Student</span>
+              <span className="text-white"> Every Student</span>
             </h2>
             
             <p className="text-lg sm:text-xl text-black/70 max-w-3xl mx-auto font-medium">
@@ -263,7 +263,7 @@ export default function Pricing() {
 
           <h2 className="text-4xl sm:text-6xl font-black text-white mb-6 leading-tight">
             Ready to Begin Your
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Chess Journey?
             </span>
           </h2>

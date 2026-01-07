@@ -88,7 +88,7 @@ export default function Contact() {
           {/* Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Get in
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Touch
             </span>
           </h1>
@@ -125,27 +125,27 @@ export default function Contact() {
                     <div className="p-3 rounded-xl bg-gradient-to-br from-primary to-secondary animate-pulse-slow">
                       <span className="text-3xl">✉️</span>
                     </div>
-                    <h2 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-support to-accent">
+                    <h2 className="text-3xl font-black text-white">
                       Send us a Message
                     </h2>
                   </div>
 
                   <form onSubmit={onSubmit} className="space-y-6">
                     <div className="group/input">
-                      <label className="block text-sm font-black mb-3 text-support uppercase tracking-wider">
+                      <label className="block text-sm font-black mb-3 text-gray-800 uppercase tracking-wider">
                         Name *
                       </label>
                       <input 
                         type="text"
                         name="name"
                         required
-                        className="w-full border-2 border-support/30 rounded-xl p-4 focus:border-support focus:ring-4 focus:ring-support/20 outline-none transition-all duration-300 font-medium"
+                        className="w-full border-2 border-primary/30 rounded-xl p-4 focus:border-primary focus:ring-4 focus:ring-primary/20 outline-none transition-all duration-300 font-medium"
                         placeholder="Your full name"
                       />
                     </div>
 
                     <div className="group/input">
-                      <label className="block text-sm font-black mb-3 text-accent uppercase tracking-wider">
+                      <label className="block text-sm font-black mb-3 text-gray-800 uppercase tracking-wider">
                         Email
                       </label>
                       <input 
@@ -157,7 +157,7 @@ export default function Contact() {
                     </div>
 
                     <div className="group/input">
-                      <label className="block text-sm font-black mb-3 text-support uppercase tracking-wider">
+                      <label className="block text-sm font-black mb-3 text-gray-800 uppercase tracking-wider">
                         Phone *
                       </label>
                       <input 
@@ -170,13 +170,13 @@ export default function Contact() {
                     </div>
 
                     <div className="group/input">
-                      <label className="block text-sm font-black mb-3 text-support uppercase tracking-wider">
+                      <label className="block text-sm font-black mb-3 text-gray-800 uppercase tracking-wider">
                         Message *
                       </label>
                       <textarea 
                         name="message"
                         required
-                        className="w-full border-2 border-support/30 rounded-xl p-4 focus:border-support focus:ring-4 focus:ring-support/20 outline-none transition-all duration-300 min-h-[140px] font-medium"
+                        className="w-full border-2 border-primary/30 rounded-xl p-4 focus:border-primary focus:ring-4 focus:ring-primary/20 outline-none transition-all duration-300 min-h-[140px] font-medium"
                         placeholder="Tell us how we can help..."
                       />
                     </div>
@@ -233,7 +233,7 @@ export default function Contact() {
                                 <a 
                                   key={idx}
                                   href={phone.link} 
-                                  className="block text-transparent bg-clip-text bg-gradient-to-r from-support to-accent font-bold text-xl hover:from-accent hover:to-support transition-all"
+                                  className="block text-primary font-bold text-xl hover:text-secondary transition-all"
                                 >
                                   {phone.number}
                                 </a>
@@ -242,7 +242,7 @@ export default function Contact() {
                           ) : info.link ? (
                             <a 
                               href={info.link} 
-                              className="text-transparent bg-clip-text bg-gradient-to-r from-support to-accent font-bold text-xl hover:from-accent hover:to-support transition-all"
+                              className="text-primary font-bold text-xl hover:text-secondary transition-all"
                             >
                               {info.content}
                             </a>
@@ -261,7 +261,7 @@ export default function Contact() {
               {/* Quick Actions */}
               <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-support via-accent to-primary p-1 shadow-2xl">
                 <div className="bg-white rounded-3xl p-8">
-                  <h3 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-support to-accent mb-6">
+                  <h3 className="text-2xl font-black text-white mb-6">
                     🚀 Quick Actions
                   </h3>
                   <div className="space-y-4">

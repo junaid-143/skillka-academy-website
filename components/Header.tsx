@@ -11,14 +11,14 @@ export default function Header() {
           <span>Skillka Chess Academy</span>
         </Link>
         <nav className="hidden sm:flex gap-6 text-base text-white">
-          <Link href="/about" className="hover:text-primary transition font-medium">About</Link>
-          <Link href="/coaches" className="hover:text-primary transition font-medium">Coaches</Link>
-          <Link href="/achievements" className="hover:text-primary transition font-medium">Achievements</Link>
-          <Link href="/events" className="hover:text-primary transition font-medium">Events</Link>
-          <Link href="/gallery" className="hover:text-primary transition font-medium">Gallery</Link>
-          <Link href="/pricing" className="hover:text-primary transition font-medium">Program & Pricing</Link>
-          <Link href="/contact" className="hover:text-primary transition font-medium">Contact</Link>
-          <Link href="/blog" className="hover:text-primary transition font-medium">Blog</Link>
+          <Link href="/about" className="hover:text-white/80 transition font-medium">About</Link>
+          <Link href="/coaches" className="hover:text-white/80 transition font-medium">Coaches</Link>
+          <Link href="/achievements" className="hover:text-white/80 transition font-medium">Achievements</Link>
+          <Link href="/events" className="hover:text-white/80 transition font-medium">Events</Link>
+          <Link href="/gallery" className="hover:text-white/80 transition font-medium">Gallery</Link>
+          <Link href="/pricing" className="hover:text-white/80 transition font-medium">Program & Pricing</Link>
+          <Link href="/contact" className="hover:text-white/80 transition font-medium">Contact</Link>
+          <Link href="/blog" className="hover:text-white/80 transition font-medium">Blog</Link>
           <Link href="/register" className="bg-primary text-black px-4 py-2 rounded-lg font-bold hover:bg-secondary transition">Register</Link>
         </nav>
         <MobileMenu />

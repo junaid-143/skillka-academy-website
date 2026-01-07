@@ -38,7 +38,7 @@ export default function About() {
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             About Skillka
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Chess Academy
             </span>
           </h1>
@@ -112,12 +112,12 @@ export default function About() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-support/20 mb-6">
               <span className="text-2xl">⭐</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">Our Strengths</span>
+              <span className="text-sm font-bold text-white uppercase tracking-wider">Our Strengths</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Why Choose
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent via-support to-accent"> Skillka?</span>
+              <span className="text-white"> Skillka?</span>
             </h2>
           </div>
 
@@ -165,7 +165,7 @@ export default function About() {
                         <span className="text-2xl">📍</span>
                       </div>
                       <div>
-                        <p className="text-sm font-bold text-primary uppercase tracking-wider mb-1">Location</p>
+                        <p className="text-sm font-bold text-white uppercase tracking-wider mb-1">Location</p>
                         <p className="font-bold text-lg mb-1">Skillka Chess Academy</p>
                         <p className="text-white/80">Backside of Kottakkal Bus Stand</p>
                         <p className="text-white/80">Malappuram District, Kerala</p>
@@ -178,7 +178,7 @@ export default function About() {
                         <span className="text-2xl">📞</span>
                       </div>
                       <div>
-                        <p className="text-sm font-bold text-primary uppercase tracking-wider mb-1">Phone</p>
+                        <p className="text-sm font-bold text-white uppercase tracking-wider mb-1">Phone</p>
                         <a href="tel:+916238793828" className="text-white hover:text-primary transition font-semibold block">+91 6238793828</a>
                         <a href="tel:+919847368798" className="text-white hover:text-primary transition font-semibold block">+91 9847368798</a>
                       </div>
@@ -190,7 +190,7 @@ export default function About() {
                         <span className="text-2xl">📧</span>
                       </div>
                       <div>
-                        <p className="text-sm font-bold text-primary uppercase tracking-wider mb-1">Email</p>
+                        <p className="text-sm font-bold text-white uppercase tracking-wider mb-1">Email</p>
                         <a href="mailto:info@skillkachess.com" className="text-white hover:text-primary transition font-semibold">info@skillkachess.com</a>
                       </div>
                     </div>
@@ -201,7 +201,7 @@ export default function About() {
                         <span className="text-2xl">🕐</span>
                       </div>
                       <div>
-                        <p className="text-sm font-bold text-primary uppercase tracking-wider mb-1">Hours</p>
+                        <p className="text-sm font-bold text-white uppercase tracking-wider mb-1">Hours</p>
                         <p className="font-bold text-lg mb-1">Monday - Sunday</p>
                         <p className="text-white/80">6:00 AM - 8:00 PM</p>
                       </div>
@@ -254,7 +254,7 @@ export default function About() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register" className="group">
-              <Button className="bg-primary hover:bg-secondary text-black font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
+              <Button className="bg-primary hover:bg-secondary text-white font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
                 <span className="flex items-center justify-center gap-2">
                   Register Now
                   <span className="group-hover:translate-x-1 transition-transform">→</span>

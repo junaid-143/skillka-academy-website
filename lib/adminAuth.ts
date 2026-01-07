@@ -1,8 +1,8 @@
 import { createHmac } from 'crypto';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-const ADMIN_USER = process.env.ADMIN_USER;
-const ADMIN_PASS = process.env.ADMIN_PASS;
+const ADMIN_USER = '6238793828';
+const ADMIN_PASS = '987654321';
 const ADMIN_SECRET = process.env.ADMIN_SECRET;
 
 if (!ADMIN_SECRET) {

@@ -40,7 +40,7 @@ export default function Achievements({ achievements }: Props) {
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Champions
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               in the Making
             </span>
           </h1>
@@ -112,12 +112,12 @@ export default function Achievements({ achievements }: Props) {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 mb-6">
               <span className="text-2xl">📊</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">By The Numbers</span>
+              <span className="text-sm font-bold text-white uppercase tracking-wider">By The Numbers</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Our Winning
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Track Record</span>
+              <span className="text-white"> Track Record</span>
             </h2>
           </div>
 
@@ -159,7 +159,7 @@ export default function Achievements({ achievements }: Props) {
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Meet Our
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent via-support to-accent"> Champion Students</span>
+              <span className="text-white"> Champion Students</span>
             </h2>
             
             <p className="text-lg sm:text-xl text-black/70 max-w-3xl mx-auto font-medium">
@@ -274,7 +274,7 @@ export default function Achievements({ achievements }: Props) {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register" className="group">
-              <Button className="bg-primary hover:bg-secondary text-black font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
+              <Button className="bg-primary hover:bg-secondary text-white font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
                 <span className="flex items-center justify-center gap-2">
                   Start Training Today
                   <span className="group-hover:translate-x-1 transition-transform">→</span>

@@ -66,7 +66,7 @@ export default function Register() {
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Join Skillka
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Chess Academy
             </span>
           </h1>
@@ -137,12 +137,12 @@ export default function Register() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-support/20 mb-6">
               <span className="text-2xl">📋</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">Registration Form</span>
+              <span className="text-sm font-bold text-gray-800 uppercase tracking-wider">Registration Form</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Complete Your
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent via-support to-accent"> Registration</span>
+              <span className="text-white"> Registration</span>
             </h2>
           </div>
 
@@ -276,7 +276,7 @@ export default function Register() {
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Benefits of Joining
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Skillka Academy</span>
+              <span className="text-white"> Skillka Academy</span>
             </h2>
           </div>
 
@@ -326,7 +326,7 @@ export default function Register() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="group">
-              <Button className="bg-primary hover:bg-secondary text-black font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
+              <Button className="bg-secondary hover:bg-primary text-white font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-secondary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
                 <span className="flex items-center justify-center gap-2">
                   Get in Touch
                   <span className="group-hover:translate-x-1 transition-transform">→</span>

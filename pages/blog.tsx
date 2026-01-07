@@ -36,7 +36,7 @@ export default function Blog() {
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Chess Insights &
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Academy Updates
             </span>
           </h1>
@@ -107,12 +107,12 @@ export default function Blog() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-support/20 mb-6">
               <span className="text-2xl">🎯</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">What's Coming</span>
+              <span className="text-sm font-bold text-white uppercase tracking-wider">What's Coming</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Upcoming
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent via-support to-accent"> Content Topics</span>
+              <span className="text-white"> Content Topics</span>
             </h2>
             
             <p className="text-lg sm:text-xl text-black/70 max-w-3xl mx-auto font-medium">
@@ -159,7 +159,7 @@ export default function Blog() {
             
             <h2 className="text-4xl sm:text-5xl font-black text-black mb-6">
               Don't Miss Any
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Updates</span>
+              <span className="text-white"> Updates</span>
             </h2>
 
             <p className="text-lg text-black/70 max-w-2xl mx-auto font-medium">
@@ -190,7 +190,7 @@ export default function Blog() {
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-2xl text-black hover:scale-110 transition-transform shadow-lg"
+                className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-2xl text-white hover:scale-110 transition-transform shadow-lg"
               >
                 ▶
               </a>
@@ -225,7 +225,7 @@ export default function Blog() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register" className="group">
-              <Button className="bg-primary hover:bg-secondary text-black font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
+              <Button className="bg-primary hover:bg-secondary text-white font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
                 <span className="flex items-center justify-center gap-2">
                   Register Now
                   <span className="group-hover:translate-x-1 transition-transform">→</span>

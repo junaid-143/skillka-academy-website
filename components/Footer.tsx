@@ -58,10 +58,10 @@ export default function Footer() {
                   <Image src="/logo.png" alt="Skillka Chess Academy Logo" width={48} height={48} className="h-12 w-12 object-contain" />
                 </div>
                 <div>
-                  <p className="font-black text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary">
+                  <p className="font-black text-2xl text-white">
                     Skillka Chess
                   </p>
-                  <p className="text-xs text-primary font-black uppercase tracking-wider">Academy</p>
+                  <p className="text-xs text-white font-black uppercase tracking-wider">Academy</p>
                 </div>
               </div>
               <p className="text-sm text-white/85 leading-relaxed mb-8 font-medium">
@@ -86,7 +86,7 @@ export default function Footer() {
 
             {/* Navigation Links */}
             <div className="group">
-              <h3 className="font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary mb-7 uppercase tracking-wider text-lg relative pb-4 animate-pulse-slow">
+              <h3 className="font-black text-white mb-7 uppercase tracking-wider text-lg relative pb-4">
                 🧭 Navigation
                 <span className="absolute bottom-0 left-0 w-16 h-2 bg-gradient-to-r from-primary to-secondary rounded-full group-hover:w-32 transition-all duration-500" />
               </h3>
@@ -107,7 +107,7 @@ export default function Footer() {
 
             {/* Resources Links */}
             <div className="group">
-              <h3 className="font-black text-transparent bg-clip-text bg-gradient-to-r from-accent via-support to-accent mb-7 uppercase tracking-wider text-lg relative pb-4 animate-pulse-slow">
+              <h3 className="font-black text-white mb-7 uppercase tracking-wider text-lg relative pb-4">
                 📚 Resources
                 <span className="absolute bottom-0 left-0 w-16 h-2 bg-gradient-to-r from-accent to-support rounded-full group-hover:w-32 transition-all duration-500" />
               </h3>
@@ -128,7 +128,7 @@ export default function Footer() {
 
             {/* Contact Section - Enhanced */}
             <div className="lg:col-span-2 group">
-              <h3 className="font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent mb-7 uppercase tracking-wider text-lg relative pb-4 animate-pulse-slow">
+              <h3 className="font-black text-white mb-7 uppercase tracking-wider text-lg relative pb-4">
                 📞 Get in Touch
                 <span className="absolute bottom-0 left-0 w-16 h-2 bg-gradient-to-r from-primary to-accent rounded-full group-hover:w-40 transition-all duration-500" />
               </h3>
@@ -139,14 +139,14 @@ export default function Footer() {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary to-secondary opacity-10 rounded-bl-3xl group-hover:opacity-20 transition-opacity" />
                 
                 <div className="relative group/item">
-                  <p className="text-sm uppercase text-primary font-black tracking-widest mb-3">📍 Location</p>
+                  <p className="text-sm uppercase text-white font-black tracking-widest mb-3">📍 Location</p>
                   <p className="text-white/95 font-bold text-lg hover:text-primary transition-colors group-hover/item:text-primary">
                     Kottakkal Bus Stand, Malappuram
                   </p>
                 </div>
 
                 <div className="relative group/item">
-                  <p className="text-sm uppercase text-accent font-black tracking-widest mb-3">📞 Phone</p>
+                  <p className="text-sm uppercase text-white font-black tracking-widest mb-3">📞 Phone</p>
                   <a 
                     href="tel:6238793828"
                     className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary font-black text-2xl hover:from-secondary hover:to-primary transition-all duration-300 flex items-center gap-3 group-hover/item:scale-110 origin-left"
@@ -177,7 +177,7 @@ export default function Footer() {
             {/* Copyright with more pizzazz */}
             <div className="text-center md:text-left group">
               <p className="text-sm text-white/80 font-bold mb-2">© {currentYear} Skillka Chess Academy</p>
-              <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-secondary font-black text-lg animate-pulse-slow">
+              <p className="text-white font-black text-lg">
                 🏆 Building champions, one move at a time.
               </p>
             </div>
@@ -185,12 +185,12 @@ export default function Footer() {
             {/* Stats - More Vibrant */}
             <div className="flex gap-6 justify-center">
               <div className="relative p-5 rounded-xl bg-gradient-to-br from-primary/30 to-secondary/20 border-2 border-primary/50 hover:border-primary hover:from-primary/50 hover:to-secondary/30 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-primary/50 group-hover:scale-110">
-                <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-black text-3xl">500+</p>
+                <p className="text-white font-black text-3xl">500+</p>
                 <p className="text-xs text-white/75 uppercase tracking-wider font-bold mt-2">Students</p>
               </div>
               <div className="w-1.5 h-16 bg-gradient-to-b from-primary via-accent to-secondary rounded-full opacity-70" />
               <div className="relative p-5 rounded-xl bg-gradient-to-br from-accent/30 to-support/20 border-2 border-accent/50 hover:border-accent hover:from-accent/50 hover:to-support/30 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-accent/50 group-hover:scale-110">
-                <p className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-support font-black text-3xl">50+</p>
+                <p className="text-white font-black text-3xl">50+</p>
                 <p className="text-xs text-white/75 uppercase tracking-wider font-bold mt-2">Champions</p>
               </div>
             </div>

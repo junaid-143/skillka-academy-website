@@ -103,7 +103,7 @@ export default function Home() {
               {/* Main Heading */}
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
                 Master the
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+                <span className="block text-white">
                   Game of Kings
                 </span>
               </h1>
@@ -129,7 +129,7 @@ export default function Home() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link href="/register" className="group">
-                  <Button className="bg-primary hover:bg-secondary text-black font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
+                  <Button className="bg-primary hover:bg-secondary text-white font-bold py-4 px-10 rounded-full transition-all duration-300 text-lg shadow-2xl shadow-primary/50 hover:shadow-primary/70 hover:scale-105 transform w-full sm:w-auto">
                     <span className="flex items-center justify-center gap-2">
                       Book Free Demo
                       <span className="group-hover:translate-x-1 transition-transform">→</span>
@@ -177,7 +177,7 @@ export default function Home() {
                     <div className="text-5xl">🏆</div>
                     <div className="flex-1">
                       <p className="text-sm text-white/70 font-semibold uppercase tracking-wider">Tournament Winners</p>
-                      <p className="text-4xl font-black text-primary">50+</p>
+                      <p className="text-4xl font-black text-white">50+</p>
                       <p className="text-xs text-white/60 mt-1">District & State Champions</p>
                     </div>
                   </div>
@@ -189,7 +189,7 @@ export default function Home() {
                     <div className="text-5xl">📈</div>
                     <div className="flex-1">
                       <p className="text-sm text-white/70 font-semibold uppercase tracking-wider">Average Growth</p>
-                      <p className="text-4xl font-black text-secondary">+600</p>
+                      <p className="text-4xl font-black text-white">+600</p>
                       <p className="text-xs text-white/60 mt-1">Rating Points in 1 Year</p>
                     </div>
                   </div>
@@ -201,7 +201,7 @@ export default function Home() {
                     <div className="text-5xl">👨‍🎓</div>
                     <div className="flex-1">
                       <p className="text-sm text-white/70 font-semibold uppercase tracking-wider">Trained & Trusted</p>
-                      <p className="text-4xl font-black text-accent">500+</p>
+                      <p className="text-4xl font-black text-white">500+</p>
                       <p className="text-xs text-white/60 mt-1">Satisfied Students & Parents</p>
                     </div>
                   </div>
@@ -270,12 +270,12 @@ export default function Home() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 mb-6">
               <span className="text-2xl">🎓</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">Our Programs</span>
+              <span className="text-sm font-bold text-white uppercase tracking-wider">Our Programs</span>
             </div>
             
             <h2 className="text-4xl sm:text-6xl font-black text-gray-900 mb-6">
               Choose Your
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Path to Mastery</span>
+              <span className="text-white"> Path to Mastery</span>
             </h2>
             
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-medium">
@@ -340,7 +340,7 @@ export default function Home() {
 
                   {/* CTA Button */}
                   <Link href="/programs" className="w-full mt-auto">
-                    <button className="w-full bg-white hover:bg-white/90 text-gray-900 font-bold py-4 px-6 rounded-full transition-all duration-300 text-base group-hover:shadow-xl flex items-center justify-center gap-2">
+                    <button className="w-full bg-white hover:bg-white/90 text-primary font-bold py-4 px-6 rounded-full transition-all duration-300 text-base group-hover:shadow-xl flex items-center justify-center gap-2">
                       Learn More
                       <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </button>
@@ -446,12 +446,12 @@ export default function Home() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 mb-6">
               <span className="text-2xl">💬</span>
-              <span className="text-sm font-bold text-support uppercase tracking-wider">Testimonials</span>
+              <span className="text-sm font-bold text-white uppercase tracking-wider">Testimonials</span>
             </div>
             
             <h2 className="text-4xl sm:text-6xl font-black text-black mb-6">
               Stories of
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-support via-accent to-support"> Success</span>
+              <span className="text-white"> Success</span>
             </h2>
             
             <p className="text-lg sm:text-xl text-black/70 max-w-3xl mx-auto font-medium">
@@ -568,7 +568,7 @@ export default function Home() {
           {/* Main Heading */}
           <h2 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
             Ready to Transform
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-pulse-slow">
+            <span className="block text-white">
               Your Chess Game?
             </span>
           </h2>
@@ -604,7 +604,7 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center w-full">
             <Link href="/register" className="group w-full sm:w-auto">
-              <Button className="w-full bg-primary hover:bg-secondary text-black font-black text-lg sm:text-xl py-4 sm:py-6 px-8 sm:px-12 rounded-full shadow-2xl shadow-primary/50 hover:shadow-primary/70 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 sm:gap-3">
+              <Button className="w-full bg-primary hover:bg-secondary text-white font-black text-lg sm:text-xl py-4 sm:py-6 px-8 sm:px-12 rounded-full shadow-2xl shadow-primary/50 hover:shadow-primary/70 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 sm:gap-3">
                 <span className="text-xl sm:text-2xl">🎓</span>
                 <span>Book Free Demo Class</span>
                 <span className="group-hover:translate-x-2 transition-transform text-xl sm:text-2xl hidden sm:inline">→</span>
